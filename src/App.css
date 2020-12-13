@@ -1,0 +1,27 @@
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.headerWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerContent {
+  margin: 0;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.headerStep {
+  margin: 10px 0;
+  font-size: 12px;
+  color: gray;
+}
+

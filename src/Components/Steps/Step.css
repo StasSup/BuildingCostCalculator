@@ -1,0 +1,58 @@
+.stepWrap {
+    width: 20%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.stepHeaderWrap {
+    height: 40px;
+    background-color: gainsboro;
+}
+
+.header {
+    margin: 0;
+    padding: 10px;
+    color: darkblue;
+    font-size: 14px;
+}
+
+.bodyWrap {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+}
+
+.bodyInputWrap {
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bodyInputWrapSuccess {
+    color: darkblue;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bodyInputWrapError {
+    color: red;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bodyInputStyle {
+    height: 20px;
+    width: 30%;
+    border: 1px solid lightgray;
+}
+
+.bodyContent {
+    width: 200px;
+    text-align: left;
+    margin: 0 auto;
+    text-decoration: underline;
+    color: green;
+    cursor: pointer;
+}
